@@ -1,0 +1,15 @@
+[user]
+	name = ghostino
+  email = 107803920+ghosttino@users.noreply.github.com
+[core]
+	excludesfile = ~/.gitignore_global
+  editor = nvim
+[color]
+	ui = true
+[init]
+	defaultBranch = main
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true

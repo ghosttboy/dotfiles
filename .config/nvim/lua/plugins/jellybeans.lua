@@ -1,0 +1,9 @@
+-- vim.pack.add({ "https://github.com/WTFox/jellybeans.nvim" })
+--
+-- require("jellybeans").setup({
+--   transparent = true,
+--   italics = true,
+--   bold = true,
+--   flat_ui = true,
+-- })
+-- vim.cmd([[colorscheme jellybeans-mono]])
