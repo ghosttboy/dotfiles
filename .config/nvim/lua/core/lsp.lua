@@ -1,5 +1,5 @@
 -- Enable servers
-vim.lsp.enable({ "ruff", "pyright", "luals", "clangd", "rust-analyzer"})
+vim.lsp.enable({ "ruff", "pyright", "luals", "clangd", "rust-analyzer" })
 
 vim.api.nvim_create_autocmd("LspAttach", {
   group = vim.api.nvim_create_augroup("lsp_attach_keymaps", { clear = true }),
