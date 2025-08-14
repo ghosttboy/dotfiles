@@ -1,7 +1,7 @@
 theme = Vesper
 font-family = Geist Mono
 font-size = 22
-background = 1a1a1a
+background = 292c33
 
 # macos-window-shadow = false
 auto-update-channel = tip
